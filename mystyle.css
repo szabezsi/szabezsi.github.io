@@ -1,0 +1,17 @@
+.nav-link{
+
+    font-weight: bold;
+    color:rgb(41, 41, 41);
+}
+
+.nav-link:hover{
+
+    color: lightgreen;
+}
+
+.img-fluid{
+
+    height: 800px;
+    background-color: white;
+}
+
