@@ -1,17 +1,15 @@
 body {
-  margin: 0px;
-  padding: 0px;
   background: rgb(192, 192, 192);
 }
 
-.container-fluid {
-  padding: 0px;
-  margin: 0px;
+#navbar{
+  margin: -12px;
+  padding: -5px;
 }
 
 @keyframes title-show {
   from {
-    transform: translateX(-100vw);
+    transform: translateX(-5vw);
     opacity: 0;
   }
   to {
@@ -39,12 +37,20 @@ body {
 }
 
 #main-image {
-  animation: title-show 2.8s;
+  animation: title-show 2s;
   height: 50%;
 }
 
 #contact {
   animation: show 4.5s;
+}
+
+#about{
+  animation: title-show 2s;
+}
+
+#technologies{
+  animation: title-show 2s;
 }
 
 .nav-link {
@@ -65,7 +71,8 @@ h5 {
 }
 
 .technology-image {
-  height: 100px;
+  height: 50%;
+  animation: show 2s;
 }
 
 .list {
