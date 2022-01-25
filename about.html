@@ -14,28 +14,36 @@
     <link rel="stylesheet" href="mystyle.css" />
   </head>
   <body>
-    <div class="container-fluid">
-      <nav id="navbar" class="navbar sticky-top navbar-secondary bg-secondary">
-        <p class="navbar-brand p-2">
-          <a class="nav-item nav-pills" href="/hu/about.html"><img src="hun.png" alt="hunFlag" class="nav-link img-fluid"  style="float:right"/></a>
-          <a class="nav-item nav-pills" href="#"><img src="uk.png" alt="ukFlag" class="nav-link img-fluid" style="float:right"/></a>
-          My portfolio                  
-        </p> 
-        <ul class="nav nav-pills">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Homepage</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="">About me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </nav>
+    <nav id="navbar" class="navbar navbar-expand-md sticky-top navbar-secondary bg-secondary">
+      <div class="container-fluid">
+        <a class="navbar-brand p-2 disabled" href="#">
+          My portfolio
+          <a class="nav-item nav-pills" href="#"><img src="uk.png" alt="ukFlag" class="nav-link img-fluid" /></a>
+          <a class="nav-item nav-pills" href="/hu/about.html"><img src="hun.png"alt="hunFlag"class="nav-link img-fluid" /></a>      
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse pull-right" id="navbarSupportedContent">
+          <ul class="navbar-nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Homepage</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
       <div class="row p-4">
-        <div class="col-12 col-lg-7" id="about">
-          <h3 class="mt-4">About me</h3>
+        <div class="col-12 col-lg-7" >
+          <h3 class="mt-4 about">About me</h3>
+          <div class="content">
           <h4 class="mt-3">Hello World!</h4>
           <p class="mt-3">
             My name is Bence Zsigmond Szabó, but you can just call me Ben, for
@@ -49,46 +57,46 @@
             <p>I used to be a confectioner for seven years, now it remains a hobby for me. I also like swimming, running or hitting the gym and go for long walks with my dog Paca.</p>
           </p>
         </div>
+        </div>
         <div class="col-12 col-lg-5">
-          <h5 class="mt-5" id="technologies">Technologies </h5>
+          <h5 class="mt-5 technologies">Technologies </h5>
           <div class="row mt-5">
             <div class="col-md-3 col-4 text-center">
-              <img src="html.png" alt="HTML 5" class="img-fluid technology-image mt-2" >
+              <img src="html.png" alt="HTML 5" class="HTML5 img-fluid technology-image mt-2" >
           </div>
           <div class="col-md-3 col-4 text-center">
-              <img src="css.png" alt="CSS" class="img-fluid technology-image mt-2">
+              <img src="css.png" alt="CSS" class="CSS img-fluid technology-image mt-2">
           </div>
           <div class="col-md-3 col-4 text-center">
-              <img src="js.png" alt="JavaScript" class="img-fluid technology-image mt-2">
+              <img src="js.png" alt="JavaScript" class="JavaScript img-fluid technology-image mt-2">
           </div>
           <div class="col-md-3 col-4 text-center">
-            <img src="jquery.png" alt="JQuery" class="img-fluid technology-image mt-2">
+            <img src="jquery.png" alt="JQuery" class="JQuery img-fluid technology-image mt-2">
           </div>
           <div class="col-md-3 col-4 text-center">
-            <img src="json.png" alt="JSON" class="img-fluid technology-image mt-2">
+            <img src="json.png" alt="JSON" class="JSON img-fluid technology-image mt-2">
           </div>
           <div class="col-md-3 col-4 text-center">
-            <img src="xml.png" alt="XML" class="img-fluid technology-image mt-2">
+            <img src="xml.png" alt="XML" class="XML img-fluid technology-image mt-2">
           </div>
           <div class="col-md-3 col-4 text-center">
-            <img src="php.png" alt="PHP" class="img-fluid technology-image mt-2">
+            <img src="php.png" alt="PHP" class="PHP img-fluid technology-image mt-2">
           </div>
           <div class="col-md-3 col-4 text-center">
-            <img src="mysql.png" alt="MySQL" class="img-fluid technology-image mt-2">
+            <img src="mysql.png" alt="MySQL" class="MySQL img-fluid technology-image mt-2">
           </div>
-        </div>
+          </div>
         <div class="w-100"></div>
         <div class="col-6"></div>
         <div class="col-6 mt-5">
           <ul class="list" id="contact">
-            <li><a style="color:#333">CV:  <a href="CV_EN.pdf"><img src="uk.png" alt="ukFlag" class="img-fluid" /></a>  <a href="CV_HU.pdf"><img src="hun.png" alt="hunFlag" class="img-fluid" /></a></a></li>
+            <li><a style="color:#333">CV:&nbsp; <a href="/CV_EN.pdf"><img src="uk.png" alt="ukFlag" class="img-fluid" /></a>	&nbsp;	&nbsp;  <a href="/CV_HU.pdf"><img src="hun.png" alt="hunFlag" class="img-fluid" /></a></a></li>
             <li>
               <a href="https://www.linkedin.com/in/szab%C3%B3-bence-zsigmond">LinkedIn</a>
             </li>
             <li><a href="mailto:szabezsi@gmail.com">szabezsi@gmail.com</a></li>
           </ul>
-        </div>
-      </div>     
+        </div>    
     </div>
 
     <script

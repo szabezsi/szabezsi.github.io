@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Főoldal</title>
+    <title>Kezdőoldal</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -14,25 +14,31 @@
     <link rel="stylesheet" href="/mystyle.css" />
   </head>
   <body>
-    <div class="container-fluid">
-      <nav id="navbar" class="navbar navbar-sticky-top navbar-secondary bg-secondary">
-        <p class="navbar-brand p-2">
-            <a class="nav-item nav-pills" href="#"><img src="hun.png" alt="hunFlag" class="nav-link img-fluid"  style="float:right"/></a>
-            <a class="nav-item nav-pills" href="/index.html"><img src="uk.png" alt="ukFlag" class="nav-link img-fluid" style="float:right"/></a>
-            Portfólióm
-        </p> 
-        <ul class="nav nav-pills">
-          <li class="nav-item">
-            <a class="nav-link" href="">Főoldal</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/hu/about.html">Rólam</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Kapcsolat</a>
-          </li>
-        </ul>
-      </nav>
+    <nav id="navbar" class="navbar navbar-expand-md sticky-top navbar-secondary bg-secondary">
+      <div class="container-fluid">
+        <a class="navbar-brand p-2 disabled" href="#">
+          Portfólióm
+          <a class="nav-item nav-pills" href="/index.html"><img src="uk.png" alt="ukFlag" class="nav-link img-fluid" /></a>
+          <a class="nav-item nav-pills" href="#"><img src="hun.png"alt="hunFlag"class="nav-link img-fluid" /></a>      
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse pull-right" id="navbarSupportedContent">
+          <ul class="navbar-nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link" href="">Kezdőoldal</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/hu/about.html">Rólam</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Kapcsolat</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
       <div class="row">
         <div class="col-5 text-center align-self-center p-3" id="main-name">
@@ -46,7 +52,7 @@
         <div class="col-1"></div>
         <div class="col-11 align-self-start text-start p-4">
           <ul class="list" id="contact">
-            <li><a style="color:#333">CV:  <a href="/CV_EN.pdf"><img src="uk.png" alt="ukFlag" class="img-fluid" /></a>  <a href="/CV_HU.pdf"><img src="hun.png" alt="hunFlag" class="img-fluid" /></a></a></li>
+            <li><a style="color:#333">CV:&nbsp; <a href="/CV_EN.pdf"><img src="uk.png" alt="ukFlag" class="img-fluid" /></a>	&nbsp;	&nbsp;  <a href="/CV_HU.pdf"><img src="hun.png" alt="hunFlag" class="img-fluid" /></a></a></li>
             <li>
               <a href="https://www.linkedin.com/in/szab%C3%B3-bence-zsigmond">LinkedIn</a>
             </li>

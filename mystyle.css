@@ -42,14 +42,18 @@ body {
 }
 
 #contact {
-  animation: show 4.5s;
+  animation: show 3.5s;
 }
 
-#about{
+.about{
   animation: title-show 2s;
 }
 
-#technologies{
+.content {
+  animation: show 2s;
+}
+
+.technologies{
   animation: title-show 2s;
 }
 
@@ -72,14 +76,45 @@ h5, h3 {
 
 .technology-image {
   height: 75%;
+}
+
+.HTML5{
+  animation: show 1.2s;
+}
+
+.CSS{
+  animation: show 1.6s;
+}
+
+.JavaScript{
   animation: show 2s;
+}
+
+.JQuery{
+  animation: show 2.4s;
+}
+
+.JSON{
+  animation: show 2.8s;
+}
+
+.XML{
+  animation: show 3.2s;
+}
+
+.PHP {
+  animation: show 3.6s;
+}
+
+.MySQL{
+  animation: show 4s;
 }
 
 .list {
   list-style-type: none;
 }
 
-.list a {
+a {
   font-weight: bold;
   text-decoration: none;
   color: #333;

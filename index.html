@@ -14,47 +14,51 @@
     <link rel="stylesheet" href="mystyle.css" />
   </head>
   <body>
-    <div class="container-fluid">
-      <nav id="navbar" class="navbar sticky-top navbar-secondary bg-secondary">
-        <p class="navbar-brand p-2">
-          <a class="nav-item nav-pills" href="/hu/index.html"><img src="hun.png" alt="hunFlag" class="nav-link img-fluid"  style="float:right"/></a>
-          <a class="nav-item nav-pills" href="#"><img src="uk.png" alt="ukFlag" class="nav-link img-fluid" style="float:right"/></a>
-          My portfolio                  
-        </p>        
-        <ul class="nav nav-pills">
-          <li class="nav-item">
-            <a class="nav-link" href="">Homepage</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </nav>
-
-      <div class="row">
-        <div class="col-5 text-center align-self-center p-3" id="main-name">
-          <h2>Bence Zsigmond Szabó</h2>
-          <h4>Junior Web developer</h4>       
-        </div>
-        <div class="col-6 text-center mt-5" id="main-image">
-          <img src="profile3.gif" alt="profilepic" class="img-fluid" />
-        </div>
-        <div class="w-100"></div>
-        <div class="col-1"></div>
-        <div class="col-11 align-self-start text-start p-4">
-          <ul class="list" id="contact">
-            <li><a style="color:#333">CV:  <a href="CV_EN.pdf"><img src="uk.png" alt="ukFlag" class="img-fluid" /></a>  <a href="CV_HU.pdf"><img src="hun.png" alt="hunFlag" class="img-fluid" /></a></a></li>
-            <li>
-              <a href="https://www.linkedin.com/in/szab%C3%B3-bence-zsigmond">LinkedIn</a>
+    <nav id="navbar" class="navbar navbar-expand-md sticky-top navbar-secondary bg-secondary">
+      <div class="container-fluid">
+        <a class="navbar-brand p-2 disabled" href="#">
+          My portfolio
+          <a class="nav-item nav-pills" href="#"><img src="uk.png" alt="ukFlag" class="nav-link img-fluid" /></a>
+          <a class="nav-item nav-pills" href="/hu/index.html"><img src="hun.png"alt="hunFlag"class="nav-link img-fluid" /></a>      
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse pull-right" id="navbarSupportedContent">
+          <ul class="navbar-nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link" href="">Homepage</a>
             </li>
-            <li><a href="mailto:szabezsi@gmail.com">szabezsi@gmail.com</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
           </ul>
-        </div> 
+        </div>
       </div>
+    </nav>
 
+    <div class="row">
+      <div class="col-5 text-center align-self-center p-3" id="main-name">
+        <h2>Bence Zsigmond Szabó</h2>
+        <h4>Junior Web Developer</h4>       
+      </div>
+      <div class="col-6 text-center mt-5" id="main-image">
+        <img src="profile3.gif" alt="profilepic" class="img-fluid" />
+      </div>
+      <div class="w-100"></div>
+      <div class="col-1"></div>
+      <div class="col-11 align-self-start text-start p-4">
+        <ul class="list" id="contact">
+          <li><a style="color:#333">CV:&nbsp; <a href="/CV_EN.pdf"><img src="uk.png" alt="ukFlag" class="img-fluid" /></a>	&nbsp;	&nbsp;  <a href="/CV_HU.pdf"><img src="hun.png" alt="hunFlag" class="img-fluid" /></a></a></li>
+          <li>
+            <a href="https://www.linkedin.com/in/szab%C3%B3-bence-zsigmond">LinkedIn</a>
+          </li>
+          <li><a href="mailto:szabezsi@gmail.com">szabezsi@gmail.com</a></li>
+        </ul>
+      </div> 
     </div>
 
     <script
