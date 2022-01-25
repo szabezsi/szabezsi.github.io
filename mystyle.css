@@ -66,12 +66,12 @@ body {
   background-color: rgb(192, 192, 192);
 }
 
-h5 {
+h5, h3 {
   color: royalblue;
 }
 
 .technology-image {
-  height: 50%;
+  height: 75%;
   animation: show 2s;
 }
 
