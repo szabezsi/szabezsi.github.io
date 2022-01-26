@@ -4,7 +4,6 @@ body {
 
 #navbar{
   margin: -12px;
-  padding: -5px;
 }
 
 @keyframes title-show {
@@ -75,7 +74,8 @@ h5, h3 {
 }
 
 .technology-image {
-  height: 75%;
+  height: 70%;
+  width: auto;
 }
 
 .HTML5{
